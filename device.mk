@@ -7,6 +7,10 @@
 # Inherit from sdm845-common
 $(call inherit-product, device/ayn/sdm845-common/sdm845.mk)
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/idc/synaptics_dsx.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx.idc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
