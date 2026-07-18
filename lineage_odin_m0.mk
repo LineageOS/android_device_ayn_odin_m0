@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/ayn/odin_m2/device.mk)
+$(call inherit-product, device/ayn/odin_m0/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odin_m0
